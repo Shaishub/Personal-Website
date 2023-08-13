@@ -1,0 +1,217 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(23, 21, 21);
+    font-family: verdana;
+    color: azure;
+    width: 100%;
+    
+}
+
+.main {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(78, 45, 79);
+    padding: 10px;
+    height: 300px;
+}
+.myname {
+    color: azure;
+    font-family: verdana;
+    text-align: center;
+}
+.con_info {
+    text-align: center;
+}
+.con_info a {
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-align: center;
+    font-family: verdana;
+    font-size: small;
+    color: rgb(225, 154, 154)
+}
+.topnav ul {
+    list-style: none;
+    background-color: rgb(225, 154, 154);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.topnav li {
+    display: inline-block;
+}
+.topnav a {
+    text-decoration: none;
+    color: rgb(78, 45, 79);
+    width: 100%;
+    display: block;
+    padding: 15px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center
+}
+.topnav a:hover {
+    background-color: azure;
+}
+.con_info a:hover {
+    color: azure;
+}
+
+.profile_sec, .achievements_sec, .work_sec, .travel_sec {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #24081C;
+    background-color: white ;
+}
+
+.profile_sec {
+    background-color: #FDF3FA;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.prof_pic {
+    float: left;
+    padding: 10px;
+    width: 40%;
+}
+.prof_des {
+    padding: 10px;
+    padding-right: 100px;
+    padding-top: 60px;
+    margin: 10px auto;
+    margin-right: 10px;
+    width: 50%;
+}
+
+.educ_sec {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #24081C;
+    background-color: white ;
+}
+
+.shs_sec {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    height: 100%;
+    width: 45%;
+}
+.jhs_sec {
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    height: 100%;
+    width: 45%;
+}
+.secondary {
+    height: 500px;
+}
+
+.ach_work {
+    background-color: #FDF3FA;
+    height: 800px;
+    width: 100%;
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+.achievements_sec {
+    background-color: #A68F9F;
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+    margin: 0;
+    height: 99%;
+}
+.work_sec {
+    background-color: #FDF3FA;
+    float: right;
+    width: 50%;
+    margin: 0px;
+    padding-top: 100px;
+    height: 99%;
+}
+.present_ach ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.work_sec ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.trav_cont {
+    height: 500px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.travel_sec {
+    height: 800px;
+    width: 100%;
+    background-color: #24081C;
+    color: #FDF3FA; 
+}
+.travel_sec h1{
+    text-align: Left;
+    padding: 20px;
+    padding-top: 30px;
+}
+.travel_sec h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.travel_sec img {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.exp_des {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin: 10px auto;
+    margin-right: 10px;
+    width: 40%;
+    text-align: justify;
+    float: right;
+    text-indent: 60px;
+}
+    
+
+.footer{
+	margin-top:5px;
+	background-color: rgb(78, 45, 79);
+	width:100%;
+	height:50px;
+    text-align: center;
+    padding:5px;
+}
+
